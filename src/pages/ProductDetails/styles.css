@@ -1,0 +1,31 @@
+.details-box{
+    position: absolute; 
+    box-sizing: border-box; 
+    pointer-events: none; 
+    width: 457.188px; 
+    height: 457.188px; 
+    top: 0px; 
+    overflow: hidden; 
+    left: 0px;
+}
+.details-img-small {
+    display: block; 
+    visibility: hidden; 
+    width: 100%;
+}
+.details-img{
+    position: absolute; 
+    box-sizing: border-box; 
+    display: block; 
+    top: 0px; 
+    left: 0px; 
+    transform: translate(0px, 0px); 
+    z-index: 1; 
+    visibility: visible; 
+    width: auto;
+}
+.details-related {
+    transform: translate3d(-297px, 0px, 0px); 
+    transition: all 0.4s ease 0s; 
+    width: 1485px;
+}
