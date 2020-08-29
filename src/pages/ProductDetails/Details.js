@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+import { Link } from 'react-router-dom'
 
 const Details = () => {
 	return (
@@ -105,9 +106,11 @@ const Details = () => {
 					</div>
 				</div>
 				<div class='product-details-action'>
+                    <Link to='/cart'>
 					<button class='btn-product btn-cart'>
 						<span>add to cart</span>
 					</button>
+                    </Link>
 					<div class='details-action-wrapper'>
 						<button class='btn-product btn-wishlist pl-0 pr-0' title='Wishlist'>
 							<span>Add to Wishlist</span>
