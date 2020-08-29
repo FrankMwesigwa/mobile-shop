@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const MainContent = () => {
     return (
@@ -65,7 +66,7 @@ const MainContent = () => {
          <div class="col-6 col-md-4 col-lg-4">
             <div class="product product-11 text-center">
                <figure class="product-media">
-                  <span class="product-label label-circle label-new">New</span><a href="/react/molla/product/default/47"><img src="images/home/home3.jpeg" alt="Product" class="product-image"/></a>
+                  <span class="product-label label-circle label-new">New</span><Link to="/details"><img src="images/home/home3.jpeg" alt="Product" class="product-image"/></Link>
                   <div class="product-action-vertical"><button class="btn-product-icon btn-wishlist remove-from-wishlist" title="Add to wishlist"><span>add to wishlist</span></button></div>
                </figure>
                <div class="product-body">
@@ -86,7 +87,7 @@ const MainContent = () => {
          <div class="col-6 col-md-4 col-lg-4">
             <div class="product product-11 text-center">
                <figure class="product-media">
-                  <a href="/react/molla/product/default/46"><img src="images/home/home8.jpeg" alt="Product" class="product-image"/></a>
+                  <Link to="/details"><img src="images/home/home8.jpeg" alt="Product" class="product-image"/></Link>
                   <div class="product-action-vertical"><button class="btn-product-icon btn-wishlist remove-from-wishlist" title="Add to wishlist"><span>add to wishlist</span></button></div>
                </figure>
                <div class="product-body">
