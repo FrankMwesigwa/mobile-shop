@@ -121,7 +121,7 @@ const index = () => {
 		                                    </ul>
 		                                </nav><button class="mobile-menu-toggler"><span class="sr-only">Toggle mobile menu</span><i class="icon-bars"></i></button></div>
 		                            <div class="header-center">
-		                                <a class="logo" href="/react/molla/"><img src="images/demos/demo-18/logo.png" alt="Molla Logo" width="82" height="25"/></a>
+		                                <a class="logo" href="/react/molla/"><img src="images/demos/logo.png" alt="Molla Logo" width="82" height="25"/></a>
 		                            </div>
 		                            <div class="header-right">
 		                                <div class="header-search header-search-extended header-search-visible"><button class="search-toggle"><i class="icon-search"></i></button>
@@ -146,7 +146,7 @@ const index = () => {
 		                        <div class="owl-stage-outer">
 		                            <div class="owl-stage" styl={{width: 8094}}>
 		                                <div class="owl-item cloned"  style={{width: 1349}}>
-		                                    <div class="intro-slide" style={{ background: 'url(images/banner-1(1).jpg)'}}>
+		                                    <div class="intro-slide" styles={{ backgroundImage:`url(images/banner-1(1).jpg)` }}>
 		                                        <div class="container">
 		                                            <div class="intro-content text-center">
 		                                                <h3 class="intro-subtitle cross-txt text-primary">SEASONAL PICKS</h3>
@@ -158,7 +158,7 @@ const index = () => {
 		                                    </div>
 		                                </div>
 		                                <div class="owl-item cloned" style={{width: 1349}}>
-		                                    <div class="intro-slide" style={{ background: 'url(images/demos/slide-2.jpg)'}}>
+		                                    <div class="intro-slide" styles={{ backgroundImage:`url(images/banner-1(1).jpg)` }}>
 		                                        <div class="container">
 		                                            <div class="intro-content text-center">
 		                                                <h3 class="intro-subtitle text-primary cross-txt">Women's Accessories</h3>
@@ -170,7 +170,7 @@ const index = () => {
 		                                    </div>
 		                                </div>
 		                                <div class="owl-item active" style={{width: 1349}}>
-		                                    <div class="intro-slide" style={{ background: 'url(&quot;assets/images/demos/demo-18/slider/slide-1.jpg&quot)'}}>
+		                                    <div class="intro-slide" styles={{ backgroundImage:`url(images/banner-1(1).jpg)` }}>
 		                                        <div class="container">
 		                                            <div class="intro-content text-center">
 		                                                <h3 class="intro-subtitle cross-txt text-primary">SEASONAL PICKS</h3>
@@ -182,7 +182,7 @@ const index = () => {
 		                                    </div>
 		                                </div>
 		                                <div class="owl-item" style={{width: 1349}}>
-		                                    <div class="intro-slide" style={{ background: 'url(&quot;assets/images/demos/demo-18/slider/slide-2.jpg&quot)'}}>
+		                                    <div class="intro-slide" styles={{ backgroundImage:`url(images/banner-1(1).jpg)` }}>
 		                                        <div class="container">
 		                                            <div class="intro-content text-center">
 		                                                <h3 class="intro-subtitle text-primary cross-txt">Women's Accessories</h3>
@@ -194,7 +194,7 @@ const index = () => {
 		                                    </div>
 		                                </div>
 		                                <div class="owl-item cloned" style={{width: 1349}}>
-		                                    <div class="intro-slide" style={{ background: 'url(&quot;assets/images/demos/demo-18/slider/slide-1.jpg&quot)'}}>
+		                                    <div class="intro-slide" styles={{ backgroundImage:`url(images/banner-1(1).jpg)` }}>
 		                                        <div class="container">
 		                                            <div class="intro-content text-center">
 		                                                <h3 class="intro-subtitle cross-txt text-primary">SEASONAL PICKS</h3>
@@ -206,7 +206,7 @@ const index = () => {
 		                                    </div>
 		                                </div>
 		                                <div class="owl-item cloned" style={{width: 1349}}>
-		                                    <div class="intro-slide" style={{ background: 'url(&quot;assets/images/demos/demo-18/slider/slide-2.jpg&quot)'}}>
+		                                    <div class="intro-slide" styles={{ backgroundImage:`url(images/banner-1(1).jpg)` }}>
 		                                        <div class="container">
 		                                            <div class="intro-content text-center">
 		                                                <h3 class="intro-subtitle text-primary cross-txt">Women's Accessories</h3>

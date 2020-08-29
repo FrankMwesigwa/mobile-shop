@@ -2,6 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
+      <div>
         <footer class="footer ">
    <div class="footer-middle ">
       <div class="container">
@@ -56,10 +57,12 @@ const Footer = () => {
    <div class="footer-bottom">
       <div class="container">
          <p class="footer-copyright">Copyright © 2020 Molla Store. All Rights Reserved.</p>
-         <figure class="footer-payments"><img src="/react/molla/assets/images/payments.png" alt="Payment methods" width="272" height="20"/></figure>
+         <figure class="footer-payments"><img src="images/payments.png" alt="Payment methods" width="272" height="20"/></figure>
       </div>
    </div>
 </footer>
+<div class="Toastify"></div> 
+</div>
     )
 }
 

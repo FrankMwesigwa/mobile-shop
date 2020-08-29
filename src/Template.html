@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+
+    <title>React App</title>
+  </head>
+  <body>
+
+  <div class="product-details-top">
+   <div class="row">
+      <div class="col-md-6">
+         <div class="product-gallery product-gallery-vertical">
+            <div class="row">
+               <figure class="product-main-image" index="0">
+                  <div style="user-select: none; cursor: crosshair;">
+                     <div style="position: relative; cursor: move;">
+                        <img src="assets/images/products/single/1.jpg" alt="Example" style="display: block; visibility: hidden; width: 100%;">
+                        <div style="position: absolute; box-sizing: border-box; pointer-events: none; width: 457.188px; height: 457.188px; top: 0px; overflow: hidden; left: 0px;"><img src="assets/images/products/single/1-big.jpg" alt="Example" style="position: absolute; box-sizing: border-box; display: block; top: 0px; left: 0px; transform: translate(0px, 0px); z-index: 1; visibility: visible; width: auto;"></div>
+                     </div>
+                  </div>
+                  <a id="btn-product-gallery" class="btn-product-gallery" href="/react/molla/product/default/27"><i class="icon-arrows"></i></a>
+               </figure>
+               <div id="product-zoom-gallery" class="product-image-gallery"><a class="product-gallery-item active" data-image="assets/images/products/single/1.jpg" data-zoom-image="assets/images/products/single/1-big.jpg" href="/react/molla/product/default/27"><img src="/react/molla/assets/images/products/single/1-small.jpg" alt="product back"></a><a class="product-gallery-item " data-image="assets/images/products/single/2.jpg" data-zoom-image="assets/images/products/single/2-big.jpg" href="/react/molla/product/default/27"><img src="/react/molla/assets/images/products/single/2-small.jpg" alt="product back"></a><a class="product-gallery-item " data-image="assets/images/products/single/3.jpg" data-zoom-image="assets/images/products/single/3-big.jpg" href="/react/molla/product/default/27"><img src="/react/molla/assets/images/products/single/3-small.jpg" alt="product back"></a><a class="product-gallery-item " data-image="assets/images/products/single/4.jpg" data-zoom-image="assets/images/products/single/4-big.jpg" href="/react/molla/product/default/27"><img src="/react/molla/assets/images/products/single/4-small.jpg" alt="product back"></a></div>
+            </div>
+         </div>
+      </div>
+      <div class="col-md-6">
+         <div class="product-details ">
+            <h1 class="product-title">Dark yellow lace cut out swing dress</h1>
+            <div class="ratings-container">
+               <div class="ratings">
+                  <div class="ratings-val" style="width: 80%;"></div>
+               </div>
+               <a class="ratings-text" id="review-link" href="/react/molla/product/default/27#product-review-link">( 2 Reviews )</a>
+            </div>
+            <div class="product-price">$84.00</div>
+            <div class="product-content">
+               <p>Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing. Sed lectus. </p>
+            </div>
+            <div class="details-filter-row details-row-size">
+               <label>Color:</label>
+               <div class="product-nav product-nav-thumbs"><a class="active" href="/react/molla/product/default/27"><img src="/react/molla/assets/images/products/single/1-thumb.jpg" alt="product desc"></a><a class="" href="/react/molla/product/default/27"><img src="/react/molla/assets/images/products/single/2-thumb.jpg" alt="product desc"></a></div>
+            </div>
+            <div class="details-filter-row details-row-size">
+               <label for="size">Size:</label>
+               <div class="select-custom">
+                  <select name="size" id="size" class="form-control">
+                     <option value="#" selected="">Select a size</option>
+                     <option value="s">Small</option>
+                     <option value="m">Medium</option>
+                     <option value="l">Large</option>
+                     <option value="xl">Extra Large</option>
+                  </select>
+               </div>
+               <a class="size-guide" href="/react/molla/product/default/27"><i class="icon-th-list"></i>size guide</a>
+            </div>
+            <div class="details-filter-row details-row-size">
+               <label for="qty">Qty:</label>
+               <div class="product-details-quantity">
+                  <input type="number" id="qty" class="form-control" min="1" max="16" step="1" data-decimals="0" required="" value="1" style="display: none;">
+                  <div class="input-group input-spinner">
+                     <div class="input-group-prepend"><button style="min-width: 26px" class="btn btn-decrement btn-spinner" type="button"><i class="icon-minus"></i></button></div>
+                     <input type="text" style="text-align: center" class="form-control " required="" placeholder="">
+                     <div class="input-group-append"><button style="min-width: 26px" class="btn btn-increment btn-spinner" type="button"><i class="icon-plus"></i></button></div>
+                  </div>
+               </div>
+            </div>
+            <div class="product-details-action">
+               <button class="btn-product btn-cart"><span>add to cart</span></button>
+               <div class="details-action-wrapper"><button class="btn-product btn-wishlist pl-0 pr-0" title="Wishlist"><span>Add to Wishlist</span></button><button class="btn-product btn-compare pr-0" title="Compare"><span>Add to Compare</span></button></div>
+            </div>
+            <div class="product-details-footer">
+               <div class="product-cat"><span>Category: </span><span class="mr-0"><a href="/react/molla/product/default/27">Women</a>, </span><span class="mr-0"><a href="/react/molla/product/default/27">Dresses</a>, </span><span class="mr-0"><a href="/react/molla/product/default/27">Yellow</a></span></div>
+               <div class="social-icons social-icons-sm"><span class="social-label">Share:</span><a class="social-icon" title="Facebook" target="_blank" href="/react/molla/product/default/27"><i class="icon-facebook-f"></i></a><a class="social-icon" title="Twitter" target="_blank" href="/react/molla/product/default/27"><i class="icon-twitter"></i></a><a class="social-icon" title="Instagram" target="_blank" href="/react/molla/product/default/27"><i class="icon-instagram"></i></a><a class="social-icon" title="Pinterest" target="_blank" href="/react/molla/product/default/27"><i class="icon-pinterest"></i></a></div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+  </body>
+</html>

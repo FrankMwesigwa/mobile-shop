@@ -1,7 +1,7 @@
-import React from 'react';
-import Layout from '../../components/Layout';
-import SideBar from '../../components/SideBar';
-import MainContent from './MainContent';
+import React from 'react'
+import Layout from '../../components/Layout'
+import SideBar from '../../components/SideBar'
+import MainContent from './MainContent'
 
 const index = () => {
     return (
