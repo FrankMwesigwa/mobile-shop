@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -72,7 +73,7 @@ const MainContent = () => {
 								<span class='product-label label-circle label-new'>New</span>
 								<Link to='/details'>
 									<img
-										src='images/home/home3.jpeg'
+										src='images/phones/phone3.jpeg'
 										alt='Product'
 										class='product-image'
 									/>
@@ -89,38 +90,27 @@ const MainContent = () => {
 							<div class='product-body'>
 								<div class='product-cat'>
 									<span class='mr-0'>
-										<a href='/react/molla/shop/sidebar/3cols'>Women</a>
+										<a href='/react/molla/shop/sidebar/3cols'>Samsung</a>
 									</span>
 								</div>
 								<h3 class='product-title'>
-									<a href='/react/molla/product/default/27'>
-										Brown paperbag waist pencil skirt
-									</a>
+									<Link to='/details'>
+									Samsung Galaxy A11 6.4" 2GB RAM 32GB
+									</Link>
 								</h3>
-								<div class='product-price'>$60.00</div>
+								<div class='product-price'>UGX 539,999</div>
 								<div class='ratings-container'>
 									<div class='ratings'>
-										<div class='ratings-val' style={{ width: '20%' }}></div>
+										<div class='ratings-val' style={{ width: '20%' }}>
+										</div>
 									</div>
 									<span class='ratings-text'>( 2 Reviews )</span>
 								</div>
-								<div class='product-nav product-nav-dots'>
-									<a
-										class='active'
-										href='/react/molla/shop/sidebar/3cols'
-										style={{ background: 'rgb(204, 153, 102)' }}
-									></a>
-									<a
-										class=''
-										href='/react/molla/shop/sidebar/3cols'
-										style={{ background: 'rgb(51, 51, 51)' }}
-									></a>
-									<a
-										class=''
-										href='/react/molla/shop/sidebar/3cols'
-										style={{ background: 'rgb(123, 93, 54)' }}
-									></a>
-								</div>
+							</div>
+							<div class='product-action'>
+								<button class='btn-product btn-cart'>
+									<span>buy now</span>
+								</button>
 							</div>
 							<div class='product-action'>
 								<button class='btn-product btn-cart'>
@@ -151,40 +141,28 @@ const MainContent = () => {
 							<div class='product-body'>
 								<div class='product-cat'>
 									<span class='mr-0'>
-										<a href='/react/molla/shop/sidebar/3cols'>Dresses</a>
+										<a href='#'>Iphone</a>
 									</span>
 								</div>
 								<h3 class='product-title'>
 									<a href='/react/molla/product/default/27'>
-										Dark yellow lace cut out swing dress
+									Tecno Camon 15 6.6" 4GB RAM 64GB 
 									</a>
 								</h3>
-								<div class='product-price'>$84.00</div>
+								<div class='product-price'>UGX 615,000</div>
 								<div class='ratings-container'>
 									<div class='ratings'>
 										<div class='ratings-val' style={{ width: '0%' }}></div>
 									</div>
 									<span class='ratings-text'>( 0 Reviews )</span>
 								</div>
-								<div class='product-nav product-nav-dots'>
-									<a
-										class='active'
-										href='/react/molla/shop/sidebar/3cols'
-										style={{ background: 'rgb(235, 235, 235)' }}
-									></a>
-									<a
-										class=''
-										href='/react/molla/shop/sidebar/3cols'
-										style={{ background: 'rgb(234, 188, 78)' }}
-									></a>
-								</div>
 							</div>
 							<div class='product-action'>
-                        <Link to='/cart'>
+                        
 								<button class='btn-product btn-cart'>
 									<span>add to cart</span>
 								</button>
-                        </Link>
+                       
 							</div>
 						</div>
 					</div>
@@ -192,7 +170,7 @@ const MainContent = () => {
 						<div class='product product-11 text-center'>
 							<figure class='product-media'>
 								<span class='product-label label-out'>Out Of Stock</span>
-								<a href='/react/molla/product/default/45'>
+								<a href='#'>
 									<img
 										src='images/home/home6.jpeg'
 										alt='Product'
@@ -211,16 +189,16 @@ const MainContent = () => {
 							<div class='product-body'>
 								<div class='product-cat'>
 									<span class='mr-0'>
-										<a href='/react/molla/shop/sidebar/3cols'>Jackets</a>
+										<a href='/react/molla/shop/sidebar/3cols'>Techno</a>
 									</span>
 								</div>
 								<h3 class='product-title'>
 									<a href='/react/molla/product/default/27'>
-										Khaki utility boiler jumpsuit
+									Samsung Galaxy Note 8 – 6.3", 6GB RAM, 64GB 
 									</a>
 								</h3>
 								<div class='product-price'>
-									<span class='out-price'>$120.00</span>
+									<span class='out-price'>UGX 1,350,000</span>
 								</div>
 								<div class='ratings-container'>
 									<div class='ratings'>
@@ -241,7 +219,7 @@ const MainContent = () => {
 							<figure class='product-media'>
 								<a href='/react/molla/product/default/44'>
 									<img
-										src='images/home/home18.jpeg'
+										src='images/home/home10.jpeg'
 										alt='Product'
 										class='product-image'
 									/>
@@ -258,15 +236,15 @@ const MainContent = () => {
 							<div class='product-body'>
 								<div class='product-cat'>
 									<span class='mr-0'>
-										<a href='/react/molla/shop/sidebar/3cols'>Jeans</a>
+										<a href='/react/molla/shop/sidebar/3cols'>Ininix</a>
 									</span>
 								</div>
 								<h3 class='product-title'>
 									<a href='/react/molla/product/default/27'>
-										Blue utility pinafore denim dress
+									Infinix Note 7 6.95" 4GB RAM 64GB ROM 48MP Camera
 									</a>
 								</h3>
-								<div class='product-price'>$76.00</div>
+								<div class='product-price'>UGX 693,000</div>
 								<div class='ratings-container'>
 									<div class='ratings'>
 										<div class='ratings-val' style={{ width: '20%' }}></div>
@@ -287,7 +265,7 @@ const MainContent = () => {
 								<span class='product-label label-circle label-new'>New</span>
 								<a href='/react/molla/product/default/43'>
 									<img
-										src='images/home/home12.jpeg'
+										src='images/home/home1.jpeg'
 										alt='Product'
 										class='product-image'
 									/>
@@ -304,33 +282,22 @@ const MainContent = () => {
 							<div class='product-body'>
 								<div class='product-cat'>
 									<span class='mr-0'>
-										<a href='/react/molla/shop/sidebar/3cols'>Shoes</a>
+										<a href='/react/molla/shop/sidebar/3cols'>Televison</a>
 									</span>
 								</div>
 								<h3 class='product-title'>
 									<a href='/react/molla/product/default/27'>
-										Beige knitted elastic runner shoes
+									Golden Tech 32" In-Built Satellite & Digital Decoder
 									</a>
 								</h3>
-								<div class='product-price'>$84.00</div>
+								<div class='product-price'>UGX 582,000</div>
 								<div class='ratings-container'>
 									<div class='ratings'>
 										<div class='ratings-val' style={{ width: '0%' }}></div>
 									</div>
 									<span class='ratings-text'>( 0 Reviews )</span>
 								</div>
-								<div class='product-nav product-nav-dots'>
-									<a
-										class='active'
-										href='/react/molla/shop/sidebar/3cols'
-										style={{ background: 'rgb(216, 197, 176)' }}
-									></a>
-									<a
-										class=''
-										href='/react/molla/shop/sidebar/3cols'
-										style={{ background: 'rgb(51, 51, 51)' }}
-									></a>
-								</div>
+								
 							</div>
 							<div class='product-action'>
 								<button class='btn-product btn-cart'>
@@ -361,38 +328,22 @@ const MainContent = () => {
 							<div class='product-body'>
 								<div class='product-cat'>
 									<span class='mr-0'>
-										<a href='/react/molla/shop/sidebar/3cols'>Bags</a>
+										<a href='/react/molla/shop/sidebar/3cols'>Television</a>
 									</span>
 								</div>
 								<h3 class='product-title'>
 									<a href='/react/molla/product/default/27'>
-										Orange saddle lock front chain cross body bag
+									Skyworth 50UB7500 Skyworth 50" Android
 									</a>
 								</h3>
-								<div class='product-price'>$52.00</div>
+								<div class='product-price'>UGX 2,011,100</div>
 								<div class='ratings-container'>
 									<div class='ratings'>
 										<div class='ratings-val' style={{ width: '80%' }}></div>
 									</div>
 									<span class='ratings-text'>( 1 Reviews )</span>
 								</div>
-								<div class='product-nav product-nav-dots'>
-									<a
-										class='active'
-										href='/react/molla/shop/sidebar/3cols'
-										style={{ background: 'rgb(224, 122, 61)' }}
-									></a>
-									<a
-										class=''
-										href='/react/molla/shop/sidebar/3cols'
-										style={{ background: 'rgb(123, 93, 54)' }}
-									></a>
-									<a
-										class=''
-										href='/react/molla/shop/sidebar/3cols'
-										style={{ background: 'rgb(218, 193, 167)' }}
-									></a>
-								</div>
+							
 							</div>
 							<div class='product-action'>
 								<button class='btn-product btn-cart'>
@@ -406,7 +357,7 @@ const MainContent = () => {
 							<figure class='product-media'>
 								<a href='/react/molla/product/default/41'>
 									<img
-										src='images/home/home15.jpeg'
+										src='images/phones/phone7.jpeg'
 										alt='Product'
 										class='product-image'
 									/>
@@ -423,37 +374,20 @@ const MainContent = () => {
 							<div class='product-body'>
 								<div class='product-cat'>
 									<span class='mr-0'>
-										<a href='/react/molla/shop/sidebar/3cols'>Shoes</a>
+										<a href='/react/molla/shop/sidebar/3cols'>Smart watch</a>
 									</span>
 								</div>
 								<h3 class='product-title'>
 									<a href='/react/molla/product/default/27'>
-										Light brown studded Wide fit wedges
+									Smart Watch Fitness Tracker Sport Watches For Android IOS
 									</a>
 								</h3>
-								<div class='product-price'>$110.00</div>
+								<div class='product-price'>UGX 19,000</div>
 								<div class='ratings-container'>
 									<div class='ratings'>
 										<div class='ratings-val' style={{ width: '80%' }}></div>
 									</div>
 									<span class='ratings-text'>( 1 Reviews )</span>
-								</div>
-								<div class='product-nav product-nav-dots'>
-									<a
-										class='active'
-										href='/react/molla/shop/sidebar/3cols'
-										style={{ background: 'rgb(204, 153, 102)' }}
-									></a>
-									<a
-										class=''
-										href='/react/molla/shop/sidebar/3cols'
-										style={{ background: 'rgb(51, 51, 51)' }}
-									></a>
-									<a
-										class=''
-										href='/react/molla/shop/sidebar/3cols'
-										style={{ background: 'rgb(218, 193, 167)' }}
-									></a>
 								</div>
 							</div>
 							<div class='product-action'>
@@ -490,10 +424,10 @@ const MainContent = () => {
 								</div>
 								<h3 class='product-title'>
 									<a href='/react/molla/product/default/27'>
-										Yellow button front tea top
+									Global Star Global-star Home theater Speaker System 
 									</a>
 								</h3>
-								<div class='product-price'>$56.00</div>
+								<div class='product-price'>UGX 216,000</div>
 								<div class='ratings-container'>
 									<div class='ratings'>
 										<div class='ratings-val' style={{ width: '0%' }}></div>
@@ -530,15 +464,15 @@ const MainContent = () => {
 							<div class='product-body'>
 								<div class='product-cat'>
 									<span class='mr-0'>
-										<a href='/react/molla/shop/sidebar/3cols'>Bags</a>
+										<a href='/react/molla/shop/sidebar/3cols'>Mac Book</a>
 									</span>
 								</div>
 								<h3 class='product-title'>
 									<a href='/react/molla/product/default/27'>
-										Black soft RI weekend travel bag
+									Apple MacBook Pro - 15" Display, Intel Core i7, 16 GB Memory, 512GB
 									</a>
 								</h3>
-								<div class='product-price'>$68.00</div>
+								<div class='product-price'>UGX 9,399,000</div>
 								<div class='ratings-container'>
 									<div class='ratings'>
 										<div class='ratings-val' style={{ width: '0%' }}></div>
@@ -566,7 +500,7 @@ const MainContent = () => {
 							href='/react/molla/shop/sidebar/3cols'
 						>
 							<span aria-hidden='true'>
-								<i class='icon-long-arrow-left'></i>
+							<i class="fas fa-long-arrow-alt-left"></i>
 							</span>
 							Prev
 						</a>
@@ -595,7 +529,7 @@ const MainContent = () => {
 						>
 							Next{' '}
 							<span aria-hidden='true'>
-								<i class='icon-long-arrow-right'></i>
+							<i class="fas fa-long-arrow-alt-right"></i>
 							</span>
 						</a>
 					</li>
