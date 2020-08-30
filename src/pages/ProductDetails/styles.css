@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+p {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-family: 'Poppins';
+    letter-spacing: 0;
+    color: #777;
+}
+
+>>>>>>> f8bc86af9920eca87e30532456a041a256448cad
 .details-box{
     position: absolute; 
     box-sizing: border-box; 
@@ -28,4 +40,68 @@
     transform: translate3d(-297px, 0px, 0px); 
     transition: all 0.4s ease 0s; 
     width: 1485px;
+<<<<<<< HEAD
+=======
+}
+.products-details-top {
+    margin-bottom: 1rem;
+}
+.products-details {
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+}
+.products-details .product-title {
+    font-weight: 400;
+    font-size: 2.4rem;
+    letter-spacing: -.025em;
+    margin-bottom: 1.2rem;
+    margin-top: -.5rem;
+    padding-right: 1rem;
+    color: #333333;
+}
+.products-desc-content h3 {
+    font-weight: 400;
+    font-size: 1.6rem;
+    letter-spacing: -.01em;
+    margin-bottom: 1.8rem;
+}
+.products-desc-content ul {
+    color: #333333;
+}
+.products-desc-content ul li {
+    position: relative;
+    padding-left: 1.3rem;
+    font-size: 1.4rem
+}
+
+.nav.nav-pills .nav-link {
+    color: #777;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    padding: .45rem 1rem;
+    border-radius: 0;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: .1rem solid transparent;
+    background-color: transparent;
+    transition: all .35s ease;
+}
+.nav.nav-pills .nav-link {
+    font-size: 1.6rem;
+}
+.product-details-tab .nav.nav-pills .nav-link {
+    color: #333333;
+    font-size: 1.6rem;
+    padding: .55rem 3rem;
+    border-bottom-width: .2rem;
+    text-transform: capitalize;
+}
+.nav.nav-pills .nav-item.show .nav-link, .nav.nav-pills .nav-item .nav-link.active {
+    color: #c96;
+    border-color: #d7d7d7;
+    border-bottom-color: #c96;
+>>>>>>> f8bc86af9920eca87e30532456a041a256448cad
 }
