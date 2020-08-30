@@ -2059,8 +2059,8 @@ blockquote.text-white cite span {
 }
 
 .menu.sf-arrows .sf-with-ul::after {
-	font-family: 'molla';
-	content: '\f110';
+	font-family: 'fontawesome';
+	content: '\f078';
 	position: absolute;
 	right: 0;
 	top: 50%;
@@ -6018,6 +6018,15 @@ p {
 	background-position: center center;
 	background-repeat: no-repeat;
 	height:40vh;
+}
+
+.page-header-banner {
+	padding: 4.6rem 0 5rem;
+	background-color: #ebebeb;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height:25vh;
 }
 
 .page-header h1 {
@@ -10169,7 +10178,8 @@ p {
 }
 
 .social-icons-sm .social-label {
-	margin-right: 1rem
+	margin-right: 1rem;
+	font-size: 2rem
 }
 
 .social-icons-colored .social-icon.social-facebook {
@@ -10393,6 +10403,8 @@ small.form-text {
 }
 
 .select-custom::after {
+	font-family: "fontawesome";
+    content: '\f078';
 	position: absolute;
 	display: inline-block;
 	right: 1.9rem;
@@ -13115,9 +13127,9 @@ button:focus {
 	height: 2rem
 }
 
-.product-details .product-cat {
+.products-details .product-cat {
 	font-weight: 400;
-	font-size: 1.4rem
+	font-size: 1.5rem
 }
 
 .product-details .product-cat span {
@@ -13127,7 +13139,11 @@ button:focus {
 .product-details .product-cat a {
 	color: #666;
 	box-shadow: none;
-	transition: all .35s ease
+	transition: all .35s ease;
+	-webkit-transition: all .35s ease;
+	-moz-transition: all .35s ease;
+	-ms-transition: all .35s ease;
+	-o-transition: all .35s ease;
 }
 
 .product-details .product-cat a:hover,

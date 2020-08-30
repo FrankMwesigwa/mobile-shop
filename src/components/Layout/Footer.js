@@ -28,7 +28,7 @@ const Footer = () => {
 										target='_blank'
 										title='Facebook'
 									>
-										<i class='icon-facebook-f'></i>
+										<i class='fab fa-facebook-f'></i>
 									</a>
 									<a
 										href='https://twitter.com/'
@@ -37,7 +37,7 @@ const Footer = () => {
 										target='_blank'
 										title='Twitter'
 									>
-										<i class='icon-twitter'></i>
+										<i class='fab fa-twitter'></i>
 									</a>
 									<a
 										href='https://instagram.com/'
@@ -46,7 +46,7 @@ const Footer = () => {
 										target='_blank'
 										title='Instagram'
 									>
-										<i class='icon-instagram'></i>
+										<i class='fab fa-instagram'></i>
 									</a>
 									<a
 										href='https://youtube.com/'
@@ -55,7 +55,7 @@ const Footer = () => {
 										target='_blank'
 										title='Youtube'
 									>
-										<i class='icon-youtube'></i>
+										<i class='fab fa-youtube'></i>
 									</a>
 									<a
 										href='https://pinterest.com/'
@@ -64,7 +64,7 @@ const Footer = () => {
 										target='_blank'
 										title='Pinterest'
 									>
-										<i class='icon-pinterest'></i>
+										<i class='fab fa-pinterest'></i>
 									</a>
 								</div>
 							</div>
@@ -96,14 +96,10 @@ const Footer = () => {
 								<h4 class='widget-title'>Customer Service</h4>
 								<ul class='widget-list'>
 									<li>
-										<a href='#'>
-											Payment Methods
-										</a>
+										<a href='#'>Payment Methods</a>
 									</li>
 									<li>
-										<a href='#'>
-											Money-back guarantee!
-										</a>
+										<a href='#'>Money-back guarantee!</a>
 									</li>
 									<li>
 										<a href='#'>Returns</a>
@@ -112,9 +108,7 @@ const Footer = () => {
 										<a href='#'>Shipping</a>
 									</li>
 									<li>
-										<a href='#'>
-											Terms and conditions
-										</a>
+										<a href='#'>Terms and conditions</a>
 									</li>
 									<li>
 										<a href='#'>Privacy Policy</a>

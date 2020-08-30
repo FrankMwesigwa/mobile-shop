@@ -21,38 +21,38 @@ const TopNav = () => {
 							/>
 						</Link>
 						<nav class='main-nav'>
-							<ul class='menu sf-arrow'>
+							<ul class='menu sf-arrows'>
 								<li class='active'>
 									<Link class='sf-with-ul' href='#'>
 										Mobile Phones
 									</Link>
 									<ul>
 										<li class=''>
-											<Link to='/iphones'>Iphones</Link>
+											<Link to='/'>Iphones</Link>
 										</li>
 										<li class=''>
-											<Link to='/iphones'>Samsung</Link>
+											<Link to='/'>Samsung</Link>
 										</li>
 										<li class='active'>
-											<Link to='/iphones'>Huawei</Link>
+											<Link to='/'>Huawei</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Xaomi/ Redmi</Link>
+											<Link to='/'>Xaomi/ Redmi</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Google pixel</Link>
+											<Link to='/'>Google pixel</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Tecno</Link>
+											<Link to='/'>Tecno</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Infinx</Link>
+											<Link to='/'>Infinx</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Oppo</Link>
+											<Link to='/'>Oppo</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Nokia</Link>
+											<Link to='/'>Nokia</Link>
 										</li>
 									</ul>
 								</li>
@@ -65,25 +65,25 @@ const TopNav = () => {
 									</Link>
 									<ul>
 										<li>
-											<Link to='/iphones'>Samsung</Link>
+											<Link to='/'>Samsung</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>LG</Link>
+											<Link to='/'>LG</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Sony</Link>
+											<Link to='/'>Sony</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Hisense</Link>
+											<Link to='/'>Hisense</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Phillips</Link>
+											<Link to='/'>Phillips</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Toshiba</Link>
+											<Link to='/'>Toshiba</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Panasonic</Link>
+											<Link to='/'>Panasonic</Link>
 										</li>
 									</ul>
 								</li>
@@ -96,25 +96,25 @@ const TopNav = () => {
 									</Link>
 									<ul>
 										<li>
-											<Link to='/iphones'>JBl</Link>
+											<Link to='/'>JBl</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Harman Kardon</Link>
+											<Link to='/'>Harman Kardon</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Bosse </Link>
+											<Link to='/'>Bosse </Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Sony</Link>
+											<Link to='/'>Sony</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Amazon</Link>
+											<Link to='/'>Amazon</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Apple</Link>
+											<Link to='/'>Apple</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Panasonic</Link>
+											<Link to='/'>Panasonic</Link>
 										</li>
 									</ul>
 								</li>
@@ -127,16 +127,16 @@ const TopNav = () => {
 									</Link>
 									<ul>
 										<li>
-											<Link to='/iphones'>Hisense</Link>
+											<Link to='/'>Hisense</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Samsung</Link>
+											<Link to='/'>Samsung</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>Lg</Link>
+											<Link to='/'>Lg</Link>
 										</li>
 										<li>
-											<Link to='/iphones'>ADH</Link>
+											<Link to='/'>ADH</Link>
 										</li>
 									</ul>
 								</li>
@@ -159,7 +159,7 @@ const TopNav = () => {
 								role='button'
 								title='Search'
 							>
-								<i class="fas fa-search"></i>
+								<i class='fas fa-search'></i>
 							</Link>
 							<form>
 								<div class='header-search-wrapper'>
@@ -190,7 +190,7 @@ const TopNav = () => {
 								aria-label='Compare Products'
 							>
 								<div class='icon'>
-                        <i class="fas fa-arrows-alt"></i>
+									<i class='fas fa-arrows-alt'></i>
 								</div>
 							</Link>
 							<div class='dropdown-menu dropdown-menu-right'>
@@ -199,12 +199,9 @@ const TopNav = () => {
 								</ul>
 								<div class='compare-actions'>
 									<button class='action-link'>Clear All</button>
-									<Link
-										class='btn btn-outline-primary-2'
-										to='/wishlist'
-									>
+									<Link class='btn btn-outline-primary-2' to='/wishlist'>
 										<span>Wishlist</span>
-										<i class="fas fa-arrows-alt"></i>
+										<i class='fas fa-arrows-alt'></i>
 									</Link>
 								</div>
 							</div>
@@ -219,7 +216,7 @@ const TopNav = () => {
 								aria-expanded='false'
 								data-display='static'
 							>
-								<i class="fas fa-shopping-cart"></i>
+								<i class='fas fa-shopping-cart'></i>
 								<span class='cart-count'>0</span>
 							</Link>
 							<div
