@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Banner = () => {
+const BannerDetails = () => {
 	return (
 		<div
-			class='page-header'
+			class='page-header-banner'
 			style={{ backgroundImage: 'url(/images/banner1.jpg)' }}
 		>
 			<div class='container text-center'>
@@ -15,4 +15,4 @@ const Banner = () => {
 	);
 };
 
-export default Banner;
+export default BannerDetails;

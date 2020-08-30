@@ -356,39 +356,39 @@ const index = () => {
 							<div class='widget-body'>
 								<div class='filter-items filter-items-count'>
 									<div class='filter-item'>
-											<label class='check-custom'>
-												200,000 to 500,000
-												<input type='checkbox' />
-												<span class='checkmark'></span>
-											</label>
+										<label class='check-custom'>
+											200,000 to 500,000
+											<input type='checkbox' />
+											<span class='checkmark'></span>
+										</label>
 									</div>
 									<div class='filter-item'>
-											<label class='check-custom'>
-												500,000 to 1,000,000
-												<input type='checkbox' />
-												<span class='checkmark'></span>
-											</label>							
+										<label class='check-custom'>
+											500,000 to 1,000,000
+											<input type='checkbox' />
+											<span class='checkmark'></span>
+										</label>
 									</div>
 									<div class='filter-item'>
-											<label class='check-custom'>
-												1,000,000 to 2,000,0000
-												<input type='checkbox' />
-												<span class='checkmark'></span>
-											</label>
+										<label class='check-custom'>
+											1,000,000 to 2,000,0000
+											<input type='checkbox' />
+											<span class='checkmark'></span>
+										</label>
 									</div>
-                           <div class='filter-item'>
-											<label class='check-custom'>
-												2,000,000 to 3,000,0000
-												<input type='checkbox' />
-												<span class='checkmark'></span>
-											</label>
+									<div class='filter-item'>
+										<label class='check-custom'>
+											2,000,000 to 3,000,0000
+											<input type='checkbox' />
+											<span class='checkmark'></span>
+										</label>
 									</div>
-                           <div class='filter-item'>
-											<label class='check-custom'>
-												3,000,000 to 4,000,0000
-												<input type='checkbox' />
-												<span class='checkmark'></span>
-											</label>
+									<div class='filter-item'>
+										<label class='check-custom'>
+											3,000,000 to 4,000,0000
+											<input type='checkbox' />
+											<span class='checkmark'></span>
+										</label>
 									</div>
 								</div>
 							</div>

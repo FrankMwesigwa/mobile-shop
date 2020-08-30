@@ -1,6 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Description from './Description';
+import Additional from './AdditionalInfo';
+import Shipping from './Shipping';
+import Reviews from './Reviews';
 
-const index = () => {
+const Tabs = () => {
+	const [currentTab, setCurrentTab] = useState('description');
+
+	const renderView = () => {
+		if (currentTab === 'description') {
+			return <Description />;
+		}
+		if (currentTab === 'additional') {
+			return <Additional />;
+		}
+		if (currentTab === 'shipping') {
+			return <Shipping />;
+		}
+		if (currentTab === 'reviews') {
+			return <Reviews />;
+		}
+	};
+
 	return (
 		<div class='react-tabs' data-tabs='true'>
 			<div class='product-details-tab'>
@@ -14,7 +35,12 @@ const index = () => {
 						aria-controls='react-tabs-41'
 						tabindex='0'
 					>
-						<span class='nav-link'> Description</span>
+						<button
+							class='nav-link'
+							onClick={() => setCurrentTab('description')}
+						>
+							Description
+						</button>
 					</li>
 					<li
 						class='nav-item'
@@ -24,7 +50,12 @@ const index = () => {
 						aria-disabled='false'
 						aria-controls='react-tabs-43'
 					>
-						<span class='nav-link'> Additional information</span>
+						<button
+							class='nav-link'
+							onClick={() => setCurrentTab('additional')}
+						>
+							Additional information
+						</button>
 					</li>
 					<li
 						class='nav-item'
@@ -34,7 +65,9 @@ const index = () => {
 						aria-disabled='false'
 						aria-controls='react-tabs-45'
 					>
-						<span class='nav-link'>Shipping &amp; Returns</span>
+						<button class='nav-link' onClick={() => setCurrentTab('shipping')}>
+							Shipping &amp; Returns
+						</button>
 					</li>
 					<li
 						class='nav-item'
@@ -44,70 +77,19 @@ const index = () => {
 						aria-disabled='false'
 						aria-controls='react-tabs-47'
 					>
-						<span class='nav-link'>Reviews (2)</span>
+						<button class='nav-link' onClick={() => setCurrentTab('reviews')}>
+							Reviews (2)
+						</button>
 					</li>
 				</ul>
 				<div class='tab-content'>
-					<div
-						class='tab-pane active show'
-						role='tabpanel'
-						id='react-tabs-41'
-						aria-labelledby='react-tabs-40'
-					>
-						<div class='product-desc-content'>
-							<h3>Product Information</h3>
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
-								odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-								turpis. Suspendisse urna viverra non, semper suscipit, posuere
-								a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam
-								porttitor mauris sit amet orci. Aenean dignissim pellentesque
-								felis. Phasellus ultrices nulla quis nibh. Quisque a lectus.
-								Donec consectetuer ligula vulputate sem tristique cursus.{' '}
-							</p>
-							<ul>
-								<li>
-									Nunc nec porttitor turpis. In eu risus enim. In vitae mollis
-									elit.{' '}
-								</li>
-								<li>Vivamus finibus vel mauris ut vehicula.</li>
-								<li>
-									Nullam a magna porttitor, dictum risus nec, faucibus sapien.
-								</li>
-							</ul>
-							<p>
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
-								odio. Quisque volutpat mattis eros. Nullam malesuada erat ut
-								turpis. Suspendisse urna viverra non, semper suscipit, posuere
-								a, pede. Donec nec justo eget felis facilisis fermentum. Aliquam
-								porttitor mauris sit amet orci. Aenean dignissim pellentesque
-								felis. Phasellus ultrices nulla quis nibh. Quisque a lectus.
-								Donec consectetuer ligula vulputate sem tristique cursus.{' '}
-							</p>
-						</div>
+					<div class='tab-pane active show' role='tabpanel'>
+						{renderView()}
 					</div>
-					<div
-						class='tab-pane'
-						role='tabpanel'
-						id='react-tabs-43'
-						aria-labelledby='react-tabs-42'
-					></div>
-					<div
-						class='tab-pane'
-						role='tabpanel'
-						id='react-tabs-45'
-						aria-labelledby='react-tabs-44'
-					></div>
-					<div
-						class='tab-pane'
-						role='tabpanel'
-						id='react-tabs-47'
-						aria-labelledby='react-tabs-46'
-					></div>
 				</div>
 			</div>
 		</div>
 	);
 };
 
-export default index;
+export default Tabs;
